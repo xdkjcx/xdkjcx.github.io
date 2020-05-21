@@ -471,8 +471,21 @@
 <h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
 
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+<p>Windows��git���з�����</p>
+<p>��������<br>Ϊ������޶ȼ���macOS�Լ�Linux��git��Ҫ��</p>
+<p>�ύʱת��ΪLF�����ʱ��ת��<br>�ܾ��ύ������ϻ��з����ļ�<br>git config –global core.autocrlf input<br>git config –global core.safecrlf true<br>������CRLFת����LF<br>�����Windows�²����������ı��Ļ��з�дΪCRLF������ʹ��dos2unix�����޸���LF</p>
+<p>��Cmder��Cywin��ִ�У�</p>
+<p>find . -type f|xargs dos2unix</p>
+<p>IDE����</p>
+<p>����autocrlf����˵��</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># �ύʱת��ΪLF�����ʱת��ΪCRLF</span></span><br><span class="line">git config --global core.autocrlf <span class="literal">true</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># �ύʱת��ΪLF�����ʱ��ת��</span></span><br><span class="line">git config --global core.autocrlf input</span><br><span class="line"></span><br><span class="line"><span class="comment"># �ύ�������ת��</span></span><br><span class="line">git config --global core.autocrlf <span class="literal">false</span></span><br></pre></td></tr></table></figure>
+
+<p>����safecrlf����˵��</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># �ܾ��ύ������ϻ��з����ļ�</span></span><br><span class="line">git config --global core.safecrlf <span class="literal">true</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># �����ύ������ϻ��з����ļ�</span></span><br><span class="line">git config --global core.safecrlf <span class="literal">false</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># �ύ������ϻ��з����ļ�ʱ��������</span></span><br><span class="line">git config --global core.safecrlf warn</span><br></pre></td></tr></table></figure>
+
+<p>���ߣ�bluexiii<br>���ӣ�<a href="https://www.jianshu.com/p/a340848a6ec1" target="_blank" rel="noopener">https://www.jianshu.com/p/a340848a6ec1</a><br>��Դ������<br>����Ȩ���������С���ҵת������ϵ���߻����Ȩ������ҵת����ע��������</p>
 <p>�޸�������</p>
-<p>2020/05/22  6:46:25 ���������ļ�<br>2020/05/22  6:48:44 �����汾�ļ������ϴ�<br>2020/05/22  7:00:10 �ύʱ���з�ת������ </p>
+<p>2020/05/22  6:46:25 ���������ļ�<br>2020/05/22  6:48:44 �����汾�ļ������ϴ�<br>2020/05/22  7:00:10 �ύʱ���з�ת������<br>2020/05/22  7:13:02 ����git �ύ����˵�� </p>
 
             </div>
             <hr/>
