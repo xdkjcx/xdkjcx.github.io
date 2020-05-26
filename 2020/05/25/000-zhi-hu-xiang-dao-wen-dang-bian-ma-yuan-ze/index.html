@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="1.3 基础交流电路与变压器, 知乎向导">
+    <meta name="keywords" content="000-知乎向导文档编码原则, 知乎向导">
     <meta name="description" content="为技术爱好者提供最佳学习路径！">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -27,7 +27,7 @@
 </script>
 
 
-    <title>1.3 基础交流电路与变压器 | 知乎向导</title>
+    <title>000-知乎向导文档编码原则 | 知乎向导</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -40,7 +40,8 @@
 
     <script src="/libs/jquery/jquery.min.js"></script>
 
-<meta name="generator" content="Hexo 4.2.1"></head>
+<meta name="generator" content="Hexo 4.2.1"><link rel="alternate" href="/atom.xml" title="知乎向导" type="application/atom+xml">
+<link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
 
 
 <body>
@@ -319,12 +320,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/22.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/18.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">1.3 基础交流电路与变压器</h1>
+                    <h1 class="description center-align post-title">000-知乎向导文档编码原则</h1>
                 </div>
             </div>
         </div>
@@ -346,20 +347,16 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/%E7%94%B5%E5%AD%90/">
-                                <span class="chip bg-color">电子</span>
+                            <a href="/tags/%E7%AE%A1%E7%90%86/">
+                                <span class="chip bg-color">管理</span>
                             </a>
                         
-                            <a href="/tags/%E6%8A%80%E6%9C%AF/">
-                                <span class="chip bg-color">技术</span>
+                            <a href="/tags/ERP/">
+                                <span class="chip bg-color">ERP</span>
                             </a>
                         
-                            <a href="/tags/%E5%85%A5%E9%97%A8/">
-                                <span class="chip bg-color">入门</span>
-                            </a>
-                        
-                            <a href="/tags/%E5%B7%A5%E7%A8%8B%E5%B8%88/">
-                                <span class="chip bg-color">工程师</span>
+                            <a href="/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA/">
+                                <span class="chip bg-color">计算机</span>
                             </a>
                         
                     </div>
@@ -370,8 +367,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/%E7%94%B5%E5%AD%90%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF%E5%85%A5%E9%97%A8/" class="post-category">
-                                电子编程技术入门
+                            <a href="/categories/%E7%AE%A1%E7%90%86%E5%AE%9E%E5%8A%A1/" class="post-category">
+                                管理实务
                             </a>
                         
                     </div>
@@ -383,7 +380,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2020-05-24
+                    2020-05-25
                 </div>
                 
 
@@ -399,49 +396,67 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>####3 电子编程入门到工程师–基本电路之交流电路与变压器</p>
-<p>时间有限，无法一一修改底部目录，请以此目录为准：</p>
-<p> <a href="https://zhuanlan.zhihu.com/p/35894131" target="_blank" rel="noopener">向导：总目录：最好的电子、计算机从入门到工程师教程</a></p>
-<p><strong>1、最简单的交流电路</strong></p>
-<p>观察下面电路，其中插座就是我们家里面的220的插座，灯泡是老式的钨丝灯泡</p>
-<p>对不起，我不认识什么是钨丝灯泡：） 看图说话…<br><img src="https://i.loli.net/2020/02/02/6wGBWqhpKrXxeFD.jpg" alt="灯泡.jpg"></p>
-<p><img src="https://i.loli.net/2020/02/02/qUr7JolydcF4kg5.gif" alt="交流电源点灯.gif"></p>
-<p>上图的灯泡 当来电的时候 实际上是时明时暗的 途中箭头代表电流的方向 电流（水流）的方向是变化的 ~ 这个符号 代表是交流电</p>
-<p>电线（水管）中的交流电是这样变化的，</p>
-<p>当插座口1来电流向插座口2时，开始的水时一点也没有的，水管的水开始慢慢变多，一直到灌满水管，然后再慢慢变少，变到没有，</p>
-<p>这个时候从插口1不来电了，而是从插座口2来电（来水）从插口1流回，也是开始是一点没有，然后慢慢变多，灌满水管后再慢慢变少，最后水又没有了。</p>
-<p>1流到2，2流到1，这种供水的方式不断进行，就如上图所示，因为水是时大时小的 所以灯泡也就时明时暗。</p>
-<p>这样的变化1秒钟50次，所以我们看到灯泡就不是明暗变化了，因为变得很快。</p>
-<p>为什么不是像水管供水那样，来水一样大，而是来水时大时小，方向还来回变化？</p>
-<p>这是因为发电厂的发电机决定的，发电机产生的电就是这样变化的，这就是交流发电机。交流发电机因为设计简单，成本低，所以大家都用交流发电机发电。还有一个原因就是这样的交流电传输距离很远。</p>
-<p>下面是交流发电机的模型，红色、白色的物体是两块磁铁 铁环旋转就发出电了 铁环转的角度不同 受到的磁力就不一样 所以发出的电大小不一样 转过半圈时 电的方向会变化 这样不断旋转 方向变化 大小变化的电就发出来了 然后通过电线可以给灯泡供电 神奇的发电机！<br><img src="https://i.loli.net/2020/02/02/sTReaSthwUH2qZY.gif" alt="发电机点灯gif.gif"></p>
-<p><strong>2 变压器</strong></p>
-<p>从发电厂发出来的电，为了能够传输的远，都会是10多万伏的高压电。</p>
-<p>想象水压越大，是不是水通过水管会流的越远，是一样的道理。</p>
-<p>但是10万伏的高压电是没法家用的，家里的电器设备220伏的 110伏的，或者更小的。</p>
-<p>这就要用到变压器</p>
-<p><img src="https://i.loli.net/2020/02/02/3VW9hGKQCzqESAc.jpg" alt="变压器jpg.jpg"><br><img src="https://i.loli.net/2020/02/02/vgupqxlK8GwAUks.jpg" alt="变压器2.jpg"><br><img src="https://i.loli.net/2020/02/02/ycOxGwJVEF8aHfY.gif" alt="变压gif.gif"></p>
-<p>变压器说穿了很简单，不要想复杂了，变压，就是把前面的电压变成后面使用的高的或低的电压<br><img src="https://i.loli.net/2020/02/02/RJToAZkltcb7BMX.jpg" alt="变压器模型.jpg"></p>
-<p>用铜线在一个铁圈一边绕上几圈（红线） 在另一边绕上几圈（绿线）</p>
-<p>红圈中交流电来的时候（可以想成水），铁芯就有了磁场（可以想成油），磁场在这个环里转动，绿色线里就有了水的流动。</p>
-<p>红色的圈数如果比绿色的圈数多那么就降压，反过来就升压</p>
-<p>这就是变压器升降压 电生磁 磁生电。</p>
-<p>因为常用所以下面先介绍下，避免接错线：</p>
-<p>电线杆上四根线 一般是三根火线，一根中线，这是三相电（三相四线）</p>
-<p>任何两个火线接出来是380伏电，任何一根火线和中线接出来是220伏电。</p>
-<p>具体是怎么回事，后续再讲。</p>
-<p>另外380伏 220伏电都属于能电死人的，如果不专业，就不要乱接，我们这个教程后续主要针对弱电（36V 以下）对人较为安全的电。</p>
-<p>以上两种电属于强电，一般专业电工操作，他们的防护措施比较好，</p>
-<p>这里讲一个原则，技术懂就是懂，不能不懂装懂，因为你是骗不了技术的，他总会在你认为正确的时候给你下套，让你栽跟头，做技术越踏实越好</p>
-<p>不懂就问，不懂就不要先操作，</p>
-<p>等学会了再做不迟，特别是针对有危险的强电作业，</p>
-<p>不懂不做不可耻，不懂装懂很要命，</p>
-<p>不要因为别人一句话伤自尊了就冒冒失失不顾安全进行作业，</p>
-<p>回他一句，有本事你去，做个马扎看热闹即可！</p>
-<p>如果觉得有用给点个赞，或者评论下，让更多的人受益。感谢！</p>
-<p><strong><em>声明：</em></strong></p>
-<p>文中所有论点、结论皆根据作者经历经验总结，限于知识结构、层次、经历局限性，必然有不少偏颇，甚至部分内容偏激，作者所有的文章也是试错的过程，欢迎批评斧正，如有不同意见或建议，请与讨论区提出讨论，致谢！</p>
+                <h2 id="知乎向导文档编码原则"><a href="#知乎向导文档编码原则" class="headerlink" title="知乎向导文档编码原则"></a>知乎向导文档编码原则</h2><p>此编码原则针对课程设计，以先有后全为原则，不是完美的编码方案，仅仅是一种方案而已。根据向导个人技能设计，每个人可以自行设计符合自身需求的编码原则。</p>
+<h3 id="四级编码模式"><a href="#四级编码模式" class="headerlink" title="四级编码模式"></a>四级编码模式</h3><pre><code>
+字母区分大小写
 
+一级编码 1位
+
+0-编码原则
+（初中级技术课程问题数据库）
+1-研发过程控制
+2-研发设计实现(特指电子电器类)
+3-生产工艺与质量控制
+4-电路维修实战
+5-电路仿真分析
+（4、5结合进行，并无先后区分）
+~~~~~~~~~~~（高级管理课程问题数据库）~~~~~~~~~~
+6-管理沙盘模拟
+7-战术技能演练
+8-营销沙盘路径
+9-风险控制与基业长青
+A-基础与累积知识(视频课程步骤)
+C-CH340 USB-TTL 模块
+h-Hexo 技巧
+R-Arduino控制板与模块
+S-STM32单片机系列
+W-《无线电识图与电路故障分析轻松入门》解析
+Z-综合核心竞争力
+V-VSCode 知识
+F-收藏检索资料
+
+一级后续扩充可增加字母与其他字符
+-----------------------
+二级编码2位（00~99）
+-----------------------
+三级编码3位（000~999）
+-----------------------
+四级编码不定长流水
+</code></pre><h3 id="筹备实体书编码"><a href="#筹备实体书编码" class="headerlink" title="筹备实体书编码"></a>筹备实体书编码</h3><p>采用通常编码方式<br>1.1.1.1<br>1 第一章<br>1.1 第一章 第一节<br>1.1.1 第一章 第一课 第一个节 …</p>
+<h3 id="为什么要编码？"><a href="#为什么要编码？" class="headerlink" title="为什么要编码？"></a>为什么要编码？</h3><p>物料编码、文件编码、知识编码是现代社会交流衔接非常重要的技能，</p>
+<p>可以思索下快递的编码、工厂内物料清单编码、淘宝上物品的编码，是不是有什么启发？这是随着计算机的发展带来的福利，知识爆炸的时代，编码是理清思路、拓展知识的优良方法，</p>
+<p>看向导的知识库、课程，你会非常清晰，学习效率高，可以说独一无二的根本原因，编码就是其中的一条，思路先清楚，理清框架，知道路径，路径再次编码，然后细分知识点，学不会？</p>
+<p><strong>管理？ 请先会理顺一些东西，然后再说自己会管！</strong></p>
+<p><strong>领导？ 请先会指导一些东西，然后再说自己能够带领！</strong></p>
+<script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>
             </div>
             <hr/>
 
@@ -466,7 +481,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://rmxd.gitee.io/2020/05/24/1.3%20%E5%9F%BA%E7%A1%80%E4%BA%A4%E6%B5%81%E7%94%B5%E8%B7%AF%E4%B8%8E%E5%8F%98%E5%8E%8B%E5%99%A8/">https://rmxd.gitee.io/2020/05/24/1.3%20%E5%9F%BA%E7%A1%80%E4%BA%A4%E6%B5%81%E7%94%B5%E8%B7%AF%E4%B8%8E%E5%8F%98%E5%8E%8B%E5%99%A8/</a>
+                    <a href="https://rmxd.gitee.io/2020/05/25/000-zhi-hu-xiang-dao-wen-dang-bian-ma-yuan-ze/">https://rmxd.gitee.io/2020/05/25/000-zhi-hu-xiang-dao-wen-dang-bian-ma-yuan-ze/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -504,20 +519,16 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/%E7%94%B5%E5%AD%90/">
-                                    <span class="chip bg-color">电子</span>
+                                <a href="/tags/%E7%AE%A1%E7%90%86/">
+                                    <span class="chip bg-color">管理</span>
                                 </a>
                             
-                                <a href="/tags/%E6%8A%80%E6%9C%AF/">
-                                    <span class="chip bg-color">技术</span>
+                                <a href="/tags/ERP/">
+                                    <span class="chip bg-color">ERP</span>
                                 </a>
                             
-                                <a href="/tags/%E5%85%A5%E9%97%A8/">
-                                    <span class="chip bg-color">入门</span>
-                                </a>
-                            
-                                <a href="/tags/%E5%B7%A5%E7%A8%8B%E5%B8%88/">
-                                    <span class="chip bg-color">工程师</span>
+                                <a href="/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA/">
+                                    <span class="chip bg-color">计算机</span>
                                 </a>
                             
                         </div>
@@ -711,31 +722,31 @@
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2020/05/24/1.4%20%E7%94%B5%E5%AD%90%E6%A6%82%E5%BF%B5%E8%A7%86%E9%A2%91%E5%8A%A8%E7%94%BB%E6%BC%94%E7%A4%BA/">
+                <a href="/2020/05/25/v-vscode-ji-qiao-yu-pei-zhi/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/9.jpg" class="responsive-img" alt="1.4 电子概念的视频动画演示">
+                        <img src="/medias/featureimages/23.jpg" class="responsive-img" alt="V-VSCode技巧与配置">
                         
-                        <span class="card-title">1.4 电子概念的视频动画演示</span>
+                        <span class="card-title">V-VSCode技巧与配置</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            动画、图解、实战才是能快速入门的正解！
+                            我是VSCode，编程遇到我，生活轻松起来...
                         
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2020-05-24
+                            <i class="far fa-clock fa-fw icon-date"></i>2020-05-25
                         </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/%E7%94%B5%E5%AD%90%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF%E5%85%A5%E9%97%A8/" class="post-category">
-                                    电子编程技术入门
+                            <a href="/categories/%E8%BD%AF%E4%BB%B6%E7%BC%96%E7%A8%8B/" class="post-category">
+                                    软件编程
                                 </a>
                             
                             
@@ -745,20 +756,20 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/%E7%94%B5%E5%AD%90/">
-                        <span class="chip bg-color">电子</span>
+                    <a href="/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA/">
+                        <span class="chip bg-color">计算机</span>
                     </a>
                     
-                    <a href="/tags/%E6%8A%80%E6%9C%AF/">
-                        <span class="chip bg-color">技术</span>
+                    <a href="/tags/%E8%BD%AF%E4%BB%B6/">
+                        <span class="chip bg-color">软件</span>
                     </a>
                     
-                    <a href="/tags/%E5%85%A5%E9%97%A8/">
-                        <span class="chip bg-color">入门</span>
+                    <a href="/tags/%E7%BC%96%E7%A8%8B/">
+                        <span class="chip bg-color">编程</span>
                     </a>
                     
-                    <a href="/tags/%E5%B7%A5%E7%A8%8B%E5%B8%88/">
-                        <span class="chip bg-color">工程师</span>
+                    <a href="/tags/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/">
+                        <span class="chip bg-color">开发工具</span>
                     </a>
                     
                 </div>
@@ -772,19 +783,19 @@
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2020/05/24/1.2%20%E4%BA%A4%E6%B5%81%E7%94%B5%20%E7%9B%B4%E6%B5%81%E7%94%B5%20%E4%BA%A4%E6%B5%81%E5%8F%98%E7%9B%B4%E6%B5%81/">
+                <a href="/2020/05/24/1.4-dian-zi-gai-nian-shi-pin-dong-hua-yan-shi/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/19.jpg" class="responsive-img" alt="1.2 交流电 直流电 交流变直流">
+                        <img src="/medias/featureimages/9.jpg" class="responsive-img" alt="1.4 电子概念的视频动画演示">
                         
-                        <span class="card-title">1.2 交流电 直流电 交流变直流</span>
+                        <span class="card-title">1.4 电子概念的视频动画演示</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            交流电、直流电最根本的不同是方向！
+                            动画、图解、实战才是能快速入门的正解！
                         
                     </div>
                     <div class="publish-info">
