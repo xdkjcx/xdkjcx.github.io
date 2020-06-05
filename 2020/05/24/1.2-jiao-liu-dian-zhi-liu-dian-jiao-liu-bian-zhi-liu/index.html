@@ -400,10 +400,14 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>####2 电子编程入门到工程师–交流电 直流电 交流变直流</p>
-<p>时间有限，无法一一修改底部目录，请以此目录为准：</p>
-<p> <a href="https://zhuanlan.zhihu.com/p/35894131" target="_blank" rel="noopener">向导：总目录：最好的电子、计算机从入门到工程师教程</a></p>
-<p>什么是交流电？什么是直流电？<br><img src="https://i.loli.net/2020/02/01/f6iRxVdWqwBGaOL.jpg" alt="插座.jpg"></p>
+                <p><strong>第一章 抽象到具象化的电子知识</strong></p>
+<p>以书籍格式、难易程度重新编排文档…</p>
+<p>为帮助最基层、零基础、非专业的技术爱好者，已开设公益课。</p>
+<p><a href="https://h5.dingtalk.com/circle/healthCheckin.html?corpId=dingacf4845ade07e67b037e7cd69076a5be&amp;6ec9d7f8-7f94-4=54c7474a-229a-4&amp;origin=11#/" target="_blank" rel="noopener">电子编程公益课直达</a></p>
+<hr>
+<h1 id="1-2-交流电-直流电-交流变直流"><a href="#1-2-交流电-直流电-交流变直流" class="headerlink" title="1.2 交流电 直流电 交流变直流"></a>1.2 交流电 直流电 交流变直流</h1><p> <a href="https://zhuanlan.zhihu.com/p/35894131" target="_blank" rel="noopener">向导：知乎总目录：最好的电子、计算机从入门到工程师教程</a></p>
+<p> <a href="https://rmxd.gitee.io">向导：博客总目录：最好的电子、计算机从入门到工程师教程</a></p>
+<h2 id="1-2-1-什么是交流电？什么是直流电？"><a href="#1-2-1-什么是交流电？什么是直流电？" class="headerlink" title="1.2.1 什么是交流电？什么是直流电？"></a>1.2.1 什么是交流电？什么是直流电？</h2><p><img src="https://i.loli.net/2020/02/01/f6iRxVdWqwBGaOL.jpg" alt="插座.jpg"></p>
 <p>我们看上面的插座，想象成两个水的出口。</p>
 <p>我们接上个U型水管，两头分别接到插口上。</p>
 <p>一会水将从左边出口流出，从右边出口回去，</p>
@@ -411,6 +415,8 @@
 <p>这样的来回流动是一秒钟的时间内变化了50次。</p>
 <p>并且水量的大小也是变化的。</p>
 <p>具体变化过程第一个方向时从没有水慢慢变大到最大，然后逐渐减小到没有(百分之一秒内完成)，这个时候注意，水管换了方向再逐渐变大到最大再逐渐减小到没有(另一个百分之一秒)。我们学习中一般画个正弦图形对应了这种变化。减小到最小就到了x周，x轴下方的图形实际是代表换了方向(50分之一秒内做完这个变化，1秒内50次这种变换)。<br><img src="https://i.loli.net/2020/02/01/n32kW9cPCmzpb5Q.gif" alt="交流电流动.gif"></p>
+<p><img src="https://i.loli.net/2020/06/05/RmMEzjWQOY4BxdV.png" alt="image.png"></p>
+<p>图中两个100分之一秒分别来了两个方向的电流， 50分之一秒(0.02秒) 两个电流波动都跑完了，正好是一个周期，0.01秒(百分之一)是半个周期，也就是一个方向的一段变化的交流电流通过，另百分之一秒换方向的交流电流返回。</p>
 <p>这个水的变化，就是电的变化， 这个电就是交流电。</p>
 <p>如果我们在这个U型的水管上，装上个单向阀门，</p>
 <p>水只能从左边流到右边，反过来不行，</p>
@@ -434,13 +440,13 @@
 你必须是爱因斯坦水准才能做做区分，
 借用一句名言，你太认真你就输了！
 容易成强迫症+所谓的疯子天才，
-但是这样的人物自身的命运往往是可悲的。</code></pre><p>现在知道交流电和直流电差别，</p>
+但是这样的人物自身的命运往往是可悲的。</code></pre><h2 id="1-2-2-为什么要把交流电变成直流电，怎么改变？"><a href="#1-2-2-为什么要把交流电变成直流电，怎么改变？" class="headerlink" title="1.2.2 为什么要把交流电变成直流电，怎么改变？"></a>1.2.2 为什么要把交流电变成直流电，怎么改变？</h2><p>现在知道交流电和直流电差别，</p>
 <p>交流电是不稳定的，水量有大有小，方向也不固定。</p>
 <p>我们很多家用电器，需要的是：</p>
 <p>水量、水压、 方向都是一定的水（电）。</p>
 <p>世界上没有新东西，</p>
 <p>人们只能去发现，而不能去创造。</p>
-<p>所谓的创造其实是又发现了世界隐藏的秘密而已。</p>
+<p><strong>所谓的创造其实是又发现了世界隐藏的秘密而已。</strong></p>
 <p>人们发现稳定的直流电才好控制。</p>
 <p>那么电路设计中，第一个动作就是把发电厂送过来的交流电（交流水） 变成直流的。</p>
 <p>简单实现就是一个单向阀（二极管）；</p>
@@ -465,7 +471,7 @@
 <p>这就是全桥的作用，</p>
 <p>把两个方向的交流电，变成了一个方向的直流电。</p>
 <p>这样所有的水都能流到后面去了，给后面的设备供电（供水）。</p>
-<p>正极，负极，说法实际上是：电或水只能从压力高的地方流到压力低的地方。</p>
+<h2 id="1-2-3-全桥的应用"><a href="#1-2-3-全桥的应用" class="headerlink" title="1.2.3 全桥的应用"></a>1.2.3 全桥的应用</h2><p>正极，负极，说法实际上是：电或水只能从压力高的地方流到压力低的地方。</p>
 <p>压力高的地方是正，压力低的地方是负。</p>
 <p>另外电和水是类似的，比如水车是需要流动的水来驱动的。</p>
 <p>家用电器、灯泡也需要流动的电驱动。</p>
@@ -480,13 +486,21 @@
 <p>以前的灯泡、 电饭锅、 电风扇是直接用的交流电，就不需要半桥或者全桥转换电路了。</p>
 <p>这是充电器<br><img src="https://i.loli.net/2020/02/01/NDR5WbpKysduLCo.jpg" alt="充电器.jpg"></p>
 <p>这是充电器中的全桥 圈中二极管<br><img src="https://i.loli.net/2020/02/01/c5xIpHiRqDGfUP2.jpg" alt="全桥实物.jpg"></p>
-<p><strong><em>总结下 ：</em></strong></p>
+<p><strong>总结下 ：</strong></p>
 <p>交流电是个方向大小变化的电，</p>
 <p>直流电只有一个方向大小可能变化（脉动直流电）也可能一样。</p>
 <p>电的变化流动可以看成水的变化流动。</p>
 <p>这里的半桥电路，全桥电路就是仅仅为了把交流电变成直流电。</p>
 <p>后面设备用什么电，我们就想办法提供什么电。</p>
 <p>如果觉得有用给点个赞，或者评论下，让更多的人受益。感谢！</p>
+<p><strong>其他信息</strong></p>
+<p>你帮助一个人用处不大，帮助了一万人呢？失去一点东西，你会得到一些东西，不要因被一时的欺骗而不相信其他人，心存善念，感恩，多去帮助身边的人，成功离你越来越近。</p>
+<p>所以有了公益课…</p>
+<p><a href="https://h5.dingtalk.com/circle/healthCheckin.html?corpId=dingacf4845ade07e67b037e7cd69076a5be&amp;6ec9d7f8-7f94-4=54c7474a-229a-4&amp;origin=11#/" target="_blank" rel="noopener">电子编程公益课直达</a></p>
+<p><a href="http://go.zhxd.vip" target="_blank" rel="noopener">向导博客地址一</a> / <a href="http://go.zhxd.vip" target="_blank" rel="noopener">http://go.zhxd.vip</a></p>
+<p><a href="http://go.zhxd.vip" target="_blank" rel="noopener">向导博客地址二</a> / <a href="http://g.zhxd.vip" target="_blank" rel="noopener">http://g.zhxd.vip</a></p>
+<p><a href="http://d.zhxd.vip" target="_blank" rel="noopener">电子编程从入门到工程师专栏</a></p>
+<p><a href="https://z.zhxd.vip" target="_blank" rel="noopener">知乎主页@向导</a></p>
 <p><strong><em>声明：</em></strong></p>
 <p>文中所有论点、结论皆根据作者经历经验总结，限于知识结构、层次、经历局限性，必然有不少偏颇，甚至部分内容偏激，作者所有的文章也是试错的过程，欢迎批评斧正，如有不同意见或建议，请与讨论区提出讨论，致谢！</p>
 <script>
